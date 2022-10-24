@@ -1,0 +1,26 @@
+.folder-header-container {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+.icon--svg {
+    width: 20px;
+    height: 20px;
+    margin: 7px 0;
+    color: white;
+    fill: white;
+}
+
+.folder-name {
+    margin-left: 5px;
+    margin-top: 7px;
+}
+
+.folder-header {
+    margin-left: 10px;
+}
+
+.display-none{
+    display: none;
+}
