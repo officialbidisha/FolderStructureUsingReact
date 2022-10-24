@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Folder.css"
 const Folder = ({ name, children }) => {
-  const [isExpanded, setIsExpanded] = useState(true);
+  const [isExpanded, setIsExpanded] = useState(false);
   const toggleExpanded  = (event) => {
     event.stopPropagation();
     setIsExpanded((prevState)=> !prevState);
@@ -18,7 +18,7 @@ const Folder = ({ name, children }) => {
         </svg>
         <span className="folder-name">{name}</span>
       </div>
-      <div className={`folder--children ${!isExpanded ? 'display-none':''}`}>{children}</div>
+      {isExpanded && <div className={`folder--children`}>{children}</div>}
     </div>
   );
 };
