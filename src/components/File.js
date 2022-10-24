@@ -28,7 +28,7 @@ const File = ({ name }) => {
   return (
     <Fragment>
       {
-        <div className="file--header">
+        <div className="file--header" onClick={(e)=> {e.stopPropagation()}}>
           <span>{getFileType(name)}</span>
           <span className="file-name">{name}</span>
         </div>
