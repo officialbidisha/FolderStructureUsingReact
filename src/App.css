@@ -37,12 +37,3 @@
   }
 }
 
-.tree-wrapper{
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  background-color: rgb(13, 71, 6);
-  font-size: 16px;
-  height: 100vh;
-  padding: 10px 15px;
-}

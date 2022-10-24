@@ -38,11 +38,9 @@ function App() {
   ];
   return (
     <div className="App">
-      <header className="App-header">
         <div className="tree-wrapper">
           <Tree structure={structure}></Tree>
         </div>
-      </header>
     </div>
   );
 }
