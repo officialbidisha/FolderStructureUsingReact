@@ -1,0 +1,15 @@
+.folder--header--container {
+    display: flex;
+    justify-content: left;
+    margin: 10px 0;
+}
+
+.folder--header .folder--icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 7px;
+}
+
+.folder--children{
+    margin-left: 10px;
+}

@@ -1,0 +1,11 @@
+.file--header .file--icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 7px;
+}
+
+.file--header {
+    display: flex;
+    justify-content: left;
+    margin: 5px 30px;
+}
